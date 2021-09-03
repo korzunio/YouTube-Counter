@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header>
         <a href="https://www.youtube.com"><img src="logo.png" alt="Logo YouTube" width="250" height="150"></a>
@@ -23,44 +25,53 @@
                 margin-left: 100px;
                 border-bottom: 2px solid grey;
             }
+
             h1 {
                 font-family: 'Bodoni Moda', serif;
             }
+
             #text {
                 margin-right: 100px;
                 margin-left: 100px;
                 font-size: 20px;
                 font-family: 'Roboto', sans-serif;
             }
+
             .description {
                 line-height: 33px;
             }
+
             .button {
-                    height: 30px;
-                    width: 100px;
-                    margin: 0 auto;
-                    display: block;
-                    margin-top: 150px;
+                height: 30px;
+                width: 100px;
+                margin: 0 auto;
+                display: block;
+                margin-top: 150px;
             }
+
             h6 {
                 text-align: center;
             }
-            @media (max-width: 1130px) {
+
+            @media (max-width: 1180px) {
                 header {
                     flex-direction: column;
                     margin-right: 0;
                     margin-left: 0;
                 }
+
                 h1 {
                     text-align: center;
                     margin-right: 0;
                     margin-left: 0;
                 }
+
                 #text {
                     margin-right: 0;
                     margin-left: 0;
                 }
             }
+
             @media (max-width: 676px) {
                 .description {
                     text-align: left;
@@ -70,11 +81,15 @@
     </header>
     <section id="text">
         <p>
-            Our site was created so that you can measure the time it will take you to watch a video if you watch it at a non-standard speed. You need to enter the time of the video on YouTube and select the speed at which you will watch the video. Our program will calculate the time it will take to view and inform you about it! Good use!
+            Our site was created so that you can measure the time it will take you to watch a video if you watch it at a
+            non-standard speed. You need to enter the time of the video on YouTube and select the speed at which you
+            will watch the video. Our program will calculate the time it will take to view and inform you about it! Good
+            use!
         </p>
         <button class="button">Calculate</button>
-        <h6>Version 1.0.1</h6>
+        <h6>Version 1.0.2</h6>
     </section>
     <script src="script.js"></script>
 </body>
+
 </html>
