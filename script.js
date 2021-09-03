@@ -25,11 +25,14 @@ button.addEventListener("click", function() {
 });
 
 
-// При скорости 0.25 вам потребуется ${speedVideo025} минут!
-// При скорости 0.50 вам потребуется ${speedVideo050} минут!
-// При скорости 0.75 вам потребуется ${speedVideo075} минут!
-// При скорости 1 вам потребуется ${speedVideo1} минут!
-// При скорости 1.25 вам потребуется ${speedVideo125} минут!
-// При скорости 1.50 вам потребуется ${speedVideo150} минут!
-// При скорости 1.75 вам потребуется ${speedVideo175} минут!
-// При скорости 2 вам потребуется ${speedVideo2} минут!`
+/* При скорости 0.25 вам потребуется ${speedVideo025} минут!
+ При скорости 0.50 вам потребуется ${speedVideo050} минут!
+ При скорости 0.75 вам потребуется ${speedVideo075} минут!
+ При скорости 1 вам потребуется ${speedVideo1} минут!
+ При скорости 1.25 вам потребуется ${speedVideo125} минут!
+ При скорости 1.50 вам потребуется ${speedVideo150} минут!
+ При скорости 1.75 вам потребуется ${speedVideo175} минут!
+ При скорости 2 вам потребуется ${speedVideo2} минут!`
+*/
+
+console.log("Hi, developer! I created this project to practice my skills in JavaScript! Subscribe to my instagram (@korzun_ilya) and write that you saw the message that I wrote in the console. You will receive a present from me :)")
